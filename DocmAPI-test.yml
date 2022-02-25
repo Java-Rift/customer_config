@@ -1,2 +1,20 @@
+# Setting/config values for DocmAPI service test environment
+my-app:
+  msg: Successfully scanned for virus and converted to PDF (Test-ok!)
+  list:
+    values: test, one, two, three
+    
 app:
   description: ====== This is a spring config client. (Test file/config - from config-server: Github) =========
+
+db:
+  connection: conn-string-here
+  host: 127.0.0.1
+  port: 1200
+
+
+# Print out logs to console...
+logging:
+  level:
+    org:
+    #springframework: INFO
