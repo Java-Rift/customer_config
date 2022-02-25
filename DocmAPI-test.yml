@@ -5,7 +5,7 @@ my-app:
     values: test, one, two, three
     
 app:
-  description: ====== This is a spring config client. (Test file/config - from config-server: Github) =========
+  description: ====== This is a spring config client. (Test file/config - from config-server - Github) =========
 
 db:
   connection: conn-string-here
