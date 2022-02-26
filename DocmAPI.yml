@@ -1,0 +1,17 @@
+
+my-app:
+  msg: Successfully scanned for virus and converted to PDF (Default).
+  list:
+    values: one, two, three
+
+db:
+  connection: conn-string-here
+  host: 127.0.0.1
+  port: 1200
+
+
+# Print out logs to console...
+logging:
+  level:
+    org:
+      #springframework: INFO
