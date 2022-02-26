@@ -1,0 +1,15 @@
+# Default setting/config values for client service(s), and shared among all services, any instances & profiles (dev, test, stage, prod,...)
+# https://cloud.spring.io/spring-cloud-config/multi/multi__spring_cloud_config_server.html
+
+my-app:
+  msg: Successfully scanned for virus and converted to PDF (Globaly-Shared among multiple service(s)!!!).
+  list:
+    values: one, two, three
+
+app:
+  description: ====== This is a spring config client. (Default global config - Globaly-Shared) =========
+
+db:
+  connection: conn-string-here
+  host: 127.0.0.1
+  port: 1200
